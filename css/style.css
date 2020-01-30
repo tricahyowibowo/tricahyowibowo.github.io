@@ -1,0 +1,28 @@
+.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{height:100%}
+
+.navbar{
+  background-color:rgba(0,0,0,.2)
+}
+
+.page-footer,.top-nav-collapse{
+  background-color:#1C2331
+}
+
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+@media only screen and (max-width:768px){
+  .navbar{
+    background-color:#1C2331}
+  }
